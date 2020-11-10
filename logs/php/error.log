@@ -1,0 +1,16 @@
+[23-Oct-2020 03:44:43 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, bool given in C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-content\plugins\all-in-one-seo-pack\aioseop_class.php on line 5737
+[23-Oct-2020 03:44:43 UTC] PHP Stack trace:
+[23-Oct-2020 03:44:43 UTC] PHP   1. {main}() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-admin\admin-ajax.php:0
+[23-Oct-2020 03:44:43 UTC] PHP   2. do_action() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-admin\admin-ajax.php:176
+[23-Oct-2020 03:44:43 UTC] PHP   3. WP_Hook->do_action() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\plugin.php:478
+[23-Oct-2020 03:44:43 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\class-wp-hook.php:311
+[23-Oct-2020 03:44:43 UTC] PHP   5. wp_ajax_toggle_auto_updates() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\class-wp-hook.php:287
+[23-Oct-2020 03:44:43 UTC] PHP   6. wp_send_json_success() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-admin\includes\ajax-actions.php:5366
+[23-Oct-2020 03:44:43 UTC] PHP   7. wp_send_json() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\functions.php:4115
+[23-Oct-2020 03:44:43 UTC] PHP   8. wp_die() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\functions.php:4091
+[23-Oct-2020 03:44:43 UTC] PHP   9. _ajax_wp_die_handler() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\functions.php:3390
+[23-Oct-2020 03:44:43 UTC] PHP  10. shutdown_action_hook() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\load.php:0
+[23-Oct-2020 03:44:43 UTC] PHP  11. do_action() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\load.php:1007
+[23-Oct-2020 03:44:43 UTC] PHP  12. WP_Hook->do_action() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\plugin.php:478
+[23-Oct-2020 03:44:43 UTC] PHP  13. WP_Hook->apply_filters() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\class-wp-hook.php:311
+[23-Oct-2020 03:44:43 UTC] PHP  14. All_in_One_SEO_Pack->check_recently_activated_modules() C:\Users\vladd\Local Sites\choice-powers-change-consulting\app\public\wp-includes\class-wp-hook.php:287
